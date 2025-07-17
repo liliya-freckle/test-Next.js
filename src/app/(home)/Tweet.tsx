@@ -7,6 +7,7 @@ interface Props {
 
 export function Tweet ({tweet} : Props )  {
     return <div> 
-    <p>{tweet.text}</p>
+        <p>{tweet.text}</p>
+        <span>@{tweet.author}</span>
     </div>
 }

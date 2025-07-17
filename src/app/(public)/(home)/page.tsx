@@ -1,4 +1,4 @@
-import { TWEETS } from '../shared/data/tweets.data';
+import { TWEETS } from '../../shared/data/tweets.data';
 import {Tweet} from './Tweet'
 
 export default function Home() {
